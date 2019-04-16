@@ -1,0 +1,11 @@
+{
+  "_index": "movies",
+  "_type": "movie",
+  "_id": "3",
+  "_version": 1,
+  "found": true,
+  "_source": {
+    "title": "Up",
+    "year": "2012"
+  }
+}

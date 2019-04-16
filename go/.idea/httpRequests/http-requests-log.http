@@ -1,0 +1,442 @@
+GET http://localhost:9200/imooc/course/_search
+Content-Type: application/json
+
+{   "a2":"b2" }
+
+<> 2018-12-19T081547.400.json
+
+###
+
+PUT http://localhost:9200/imooc/course/2
+Content-Type: application/json
+
+{   "a2":"b2" }
+
+<> 2018-12-19T081522.201.json
+
+###
+
+PUT http://localhost:9200/imooc/course/1
+Content-Type: application/json
+
+{   "a1":"b1" }
+
+<> 2018-12-19T081504.201.json
+
+###
+
+GET http://localhost:9200/imooc/course/2
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-19T075752.404.json
+
+###
+
+GET http://localhost:9200/imooc/course/1
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-19T075748.404.json
+
+###
+
+GET http://localhost:9200/imooc/course/
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-19T075736.405.json
+
+###
+
+GET http://localhost:9200/imooc/course/1
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-19T075729.404.json
+
+###
+
+GET http://localhost:9200/imooc/course/Up
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-19T075719.404.json
+
+###
+
+GET http://localhost:9200/imooc/course/_search
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-19T075709.400.json
+
+###
+
+GET http://localhost:9200/imooc/course/_search
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+###
+
+GET http://localhost:9200/imooc/course/_search
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-13T024203.400.json
+
+###
+
+GET http://localhost:9200/_search
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-13T024154.400.json
+
+###
+
+GET http://localhost:9200/search
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-13T024144.404.json
+
+###
+
+GET http://localhost:9200/_search
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-13T024136.400.json
+
+###
+
+GET http://localhost:9200/_search
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-13T024129.400.json
+
+###
+
+GET http://localhost:9200/imooc/course/_search
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-13T023540.400.json
+
+###
+
+GET http://localhost:9200/imooc/course/2
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-13T023506.200.json
+
+###
+
+POST http://localhost:9200/imooc/course/2
+Content-Type: application/json
+
+{         "name":"interview",         "instructor":"ccmouse" }
+
+<> 2018-12-13T023456.201.json
+
+###
+
+POST http://localhost:9200/imooc/course/2
+Content-Type: application/json
+
+{      "name":"interview",      "instructor":"ccmouse", }
+
+<> 2018-12-13T023428.400.json
+
+###
+
+GET http://localhost:9200/imooc/course/1
+Content-Type: application/json
+
+{   "name":"golang",   "instructor":"ccmouse" }
+
+<> 2018-12-13T023212.200.json
+
+###
+
+PUT http://localhost:9200/imooc/course/1
+Content-Type: application/json
+
+{   "name":"golang",   "instructor":"ccmouse" }
+
+<> 2018-12-13T023134.201.json
+
+###
+
+GET http://localhost:9200/movies/movie/Up
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-13T022551.404.json
+
+###
+
+GET http://localhost:9200/_cat/indices
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+###
+
+GET http://localhost:9200
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-13T022309.200.json
+
+###
+
+GET http://localhost:9200/movie/name/up
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+###
+
+GET http://localhost:9200/movie/name/up
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123749.200.json
+
+###
+
+GET http://localhost:9200/movie/name/_search
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123354.400.json
+
+###
+
+GET http://localhost:9200/_cat/indices
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123329.200.txt
+
+###
+
+GET http://localhost:9200/_cat/indices
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123309.200.txt
+
+###
+
+GET http://localhost:9200/_cat/indices
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123306.200.txt
+
+###
+
+GET http://localhost:9200/_cat/indices
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123258.200.txt
+
+###
+
+GET http://localhost:9200/movie/name/the%20God%20father
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123238.200.json
+
+###
+
+PUT http://localhost:9200/movie/name/the%20God%20father
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123230.200.json
+
+###
+
+PUT http://localhost:9200/movie/name/the%20God%20father
+Content-Type: application/json
+
+{    "title": "the God father",   "year": "1994" }
+
+<> 2018-12-06T123220.201.json
+
+###
+
+GET http://localhost:9200/movie/name/up
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-06T123101.200.json
+
+###
+
+PUT http://localhost:9200/movie/name/up
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-06T123044.201.json
+
+###
+
+GET http://localhost:9200/_cat/indices
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+###
+
+GET http://localhost:9200/movies/movie/1
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-06T122655.404.json
+
+###
+
+GET http://localhost:9200/movies/movie/1
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T042725.200.json
+
+###
+
+POST http://localhost:9200/movies/movie/1
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T042713.200.json
+
+###
+
+POST http://localhost:9200/movies/movie
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T042703.201.json
+
+###
+
+POST http://localhost:9200/_search
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T042646.400.json
+
+###
+
+POST http://localhost:9200/_search
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T031032.400.json
+
+###
+
+GET http://localhost:9200/_search
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T031028.400.json
+
+###
+
+GET http://localhost:9200/movies/movie/_search
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T031018.400.json
+
+###
+
+POST http://localhost:9200/movies/movie/_search
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T031008.400.json
+
+###
+
+GET http://localhost:9200/movies/movie/3
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T030826.200.json
+
+###
+
+PUT http://localhost:9200/movies/movie/3
+Content-Type: application/json
+
+{    "title": "Up",   "year": "2012" }
+
+<> 2018-12-04T030823.201.json
+
+###
+
+GET http://localhost:9200/movies/movie/2
+Content-Type: application/json
+
+{    "title": "life of pi",   "year": "2010" }
+
+<> 2018-12-04T030749.200.json
+
+###
+
+PUT http://localhost:9200/movies/movie/2
+Content-Type: application/json
+
+{    "title": "life of pi",   "year": "2010" }
+
+<> 2018-12-04T030743.201.json
+
+###
+

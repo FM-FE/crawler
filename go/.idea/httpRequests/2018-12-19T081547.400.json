@@ -1,0 +1,17 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "parsing_exception",
+        "reason": "Unknown key for a VALUE_STRING in [a2].",
+        "line": 1,
+        "col": 10
+      }
+    ],
+    "type": "parsing_exception",
+    "reason": "Unknown key for a VALUE_STRING in [a2].",
+    "line": 1,
+    "col": 10
+  },
+  "status": 400
+}

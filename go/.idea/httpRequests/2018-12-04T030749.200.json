@@ -1,0 +1,11 @@
+{
+  "_index": "movies",
+  "_type": "movie",
+  "_id": "2",
+  "_version": 1,
+  "found": true,
+  "_source": {
+    "title": "life of pi",
+    "year": "2010"
+  }
+}

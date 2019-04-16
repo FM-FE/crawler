@@ -1,0 +1,2 @@
+index/type/id
+crawler/sample/elasticsearch

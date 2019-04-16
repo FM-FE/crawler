@@ -1,0 +1,21 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "index_not_found_exception",
+        "reason": "no such index",
+        "resource.type": "index_expression",
+        "resource.id": "movies",
+        "index_uuid": "_na_",
+        "index": "movies"
+      }
+    ],
+    "type": "index_not_found_exception",
+    "reason": "no such index",
+    "resource.type": "index_expression",
+    "resource.id": "movies",
+    "index_uuid": "_na_",
+    "index": "movies"
+  },
+  "status": 404
+}
